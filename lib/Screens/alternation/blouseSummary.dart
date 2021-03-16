@@ -12,6 +12,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:random_string/random_string.dart';
 
+import 'blouseAddress.dart';
+
 class BlouseSummary extends StatefulWidget {
   final int backPrice;
   final String measurementImageTopUrl;
