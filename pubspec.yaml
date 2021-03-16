@@ -1,0 +1,195 @@
+name: bellbirdmvp
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.2.0
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations: # Add this line
+    sdk: flutter # Add this line  
+  provider: ^4.3.2+1
+  connectivity: ^2.0.1
+  bloc: ^6.0.3
+  google_fonts: ^1.1.1
+
+  cupertino_icons: ^1.0.0
+
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  shared_preferences: ^0.5.6
+  google_sign_in: ^4.1.1
+  flutter_downloader: ^1.5.0
+  http: ^0.12.0+4
+  flare_flutter: ^2.0.3
+  flutter_bloc: ^6.0.0   #helps in implementing blocs
+  equatable: ^1.2.0 #helps in comparing class using their values
+  firebase_storage: ^5.0.1
+  lite_rolling_switch: ^0.1.1
+  time_formatter: ^1.0.0
+  modal_bottom_sheet: ^1.0.0+1
+  firebase_auth: ^0.18.3
+  random_string: ^2.1.0
+  cupertino_tabbar: ^1.0.1
+  flutter_staggered_grid_view: ^0.3.2
+  flutter_signin_button: ^1.0.0
+  firebase_messaging: ^7.0.3
+  circular_check_box: ^1.0.4
+  christian_picker_image: ^0.1.8
+  image_picker: ^0.6.7+14
+  cloud_firestore: ^0.14.0+2
+  sign_button: ^1.0.0
+  wechat_camera_picker: ^1.3.0
+  cached_network_image: ^2.2.0+1
+  share: ^0.6.5+4
+  flutter_screenutil: ^3.2.0
+  firebase_core: ^0.5.0
+  animated_bottom_navigation_bar: ^0.1.2+2
+  flutter_awesome_buttons: ^0.1.0
+  flutter_auth_buttons: ^0.10.0
+  flutter_icons: ^1.1.0
+  flutter_spinkit: ^4.1.2
+  line_awesome_icons: ^1.0.4+2
+  file_picker: ^2.1.0
+
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  assets:
+    - assets/noi.png
+    - assets/canable.JPG
+    - assets/Canable.png
+    - assets/A1.png
+    - lib/lang/en.json
+    - lib/lang/ur.json
+    - lib/lang/hi.json
+    - assets/A2.png
+    - assets/A3.png
+    - assets/A4.png
+    - assets/COD.png
+    - assets/QC.png
+    - assets/DT.png
+    - assets/referralImage.png
+    - assets/salwarSuit.png
+    - assets/12.png
+    - assets/blouse.png
+    - assets/lehengaimage.png
+    - assets/gararaImage.png
+    - assets/patchesSuitCard.png
+    - assets/patchesSuitCard1.png
+    - assets/patchesSuitCard2.png
+    - assets/pak.png
+    - assets/ringSS.png
+    - assets/Group 17.png
+    - assets/sendYourDesign.flr
+    - assets/shavez1.flr
+    - assets/ani1.flr
+    - assets/sendYourDesign1.flr
+    - assets/sendYourDesign2.flr
+    - assets/pakistaniSuit.flr
+    - assets/pakistaniSuit1.flr
+    - assets/pakistaniSuit2.flr
+    - assets/stack.png
+    - assets/adjust.png
+    - assets/Success Check.flr
+    - assets/referralCodeImage.png
+    - assets/homeSPen.png
+    - assets/homeSPhi.png
+    - assets/homeSPur.png
+    - assets/logo3.jpg
+    - assets/suitImage.png
+    - assets/frockImage.png
+    - assets/noMeasurement.png
+    - assets/noMeasurement1.png
+    - assets/noMeasurement2.png
+    - assets/measurementCard.png
+    - assets/measurementCard1.png
+    - assets/measurementCard2.png
+    - assets/measurementCloth.png
+    - assets/measurementCloth1.png
+    - assets/measurementCloth2.png
+    - assets/salwarSuitCard.png
+    - assets/salwarSuitCard1.png
+    - assets/salwarSuitCard2.png
+    - assets/freeImage.png
+    - assets/hanger.png
+    - assets/homeSP.png
+    - assets/topSS.png
+    - assets/bottomSS1.png
+    - assets/play.flr
+    - assets/uploadFabric.png
+    - assets/sendYourDesignCard.png
+    - assets/sendYourDesignCard1.png
+    - assets/sendYourDesignCard2.png
+    - assets/uploadFabric2.png
+    - assets/homeImage.png
+    - assets/homeImage2.png
+    - assets/uploadFabric.png
+    - assets/uploadFabric1.png
+    
+
+
+  
+  uses-material-design: true
+
+  
+  fonts:
+    - family: CodeProlight
+      fonts:
+        - asset: assets/CodeProLowercase.ttf
+    - family: CodePro
+      fonts:
+        - asset: assets/CodeProLowercaseBold.ttf
+    - family: Graphik
+      fonts:
+        - asset: assets/Graphik-Regular.ttf
+    - family: Helvetica
+      fonts:
+        - asset: assets/Helvetica.ttf
+    - family: MyFlutterApp
+      fonts:
+        - asset: assets/MyFlutterApp.ttf    
+    - family: Helvetica_rounded
+      fonts:
+        - asset: assets/helvetica-rounded-bold.otf
+    - family: Graphik_super
+      fonts:
+        - asset: assets/Graphik-Super.ttf    
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

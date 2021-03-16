@@ -1,0 +1,74 @@
+
+    [
+    {
+      "id":"p1",
+      "title": "Shirt",
+      "description": "cool Shirt",
+      "price": 180,
+  "imageUrl": "assets/shirt.png"  },
+  
+  {
+    "id":"p2",
+    "title": "pant",
+    "description": "cool Shirt",
+    "price": 180,
+"imageUrl": "assets/pant.png"  },
+   
+{
+    "id":"p3",
+    "title": "Shirt",
+    "description": "cool Shirt",
+    "price": 180,
+"imageUrl": "assets/top.png"  },
+{
+    "id":"p4",
+    "title": "Shirt",
+    "description": "cool Shirt",
+    "price": 180,
+"imageUrl": "assets/shirt.png"  },
+  
+{
+    "id":"p5",
+    "title": "pant",
+    "description": "cool Shirt",
+    "price": 180,
+"imageUrl": "assets/pant.png"  },
+{
+    "id":"p6",
+    "title": "Top",
+    "description": "cool Shirt",
+    "price": 180,
+"imageUrl": "assets/top.png"  }
+    ]
+
+    CupertinoTabBar(border: Border(top: BorderSide(width: 0.7, color: Color(0x29000000))),
+          currentIndex: currentIndex,
+          items: [
+            BottomNavigationBarItem(
+              icon: Icon(Feather.activity),
+              title: Text('EXPLORE',
+                  style: TextStyle(
+                      fontWeight: FontWeight.w700)),
+            ),  BottomNavigationBarItem(
+              icon: Icon(Feather.database),
+              title: Text('TIMELINE',
+                  style: TextStyle(
+                      fontWeight: FontWeight.w800 )),
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Feather.search),
+              title: Text('SEARCH',
+                  style: TextStyle(
+                      fontWeight: FontWeight.w800,)),
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Feather.user),
+              title: Text('PROFILE',
+                  style: TextStyle(
+                      fontWeight: FontWeight.w800,)),
+            ),
+          ],
+          iconSize: 28,
+          backgroundColor: Color(0xFFFFFFFF),
+          activeColor: Color(0xFF0073b1),
+          onTap: onTap),

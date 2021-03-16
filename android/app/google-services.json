@@ -1,0 +1,123 @@
+{
+  "project_info": {
+    "project_number": "658783263698",
+    "firebase_url": "https://canablermp.firebaseio.com",
+    "project_id": "canablermp",
+    "storage_bucket": "canablermp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658783263698:android:33b656d4c0ecfb7da6860b",
+        "android_client_info": {
+          "package_name": "com.change.canable"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658783263698-cca0nabk9g6h48ne79se2m8ml715928r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.change.canable",
+            "certificate_hash": "2d08507e7224c1b2f7cb4d505a63dfcdd889eaef"
+          }
+        },
+        {
+          "client_id": "658783263698-mtootu441k3pteh890r5akkpe4kfand9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.change.canable",
+            "certificate_hash": "35860884b67d567d71fa41473cf6336a56074a63"
+          }
+        },
+        {
+          "client_id": "658783263698-30j58v592p2jcgcu194in7gbbtp9n8k4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.change.canable",
+            "certificate_hash": "a35c404e0362b9540e7d422a1ae4ff731bc58758"
+          }
+        },
+        {
+          "client_id": "658783263698-rnuopd5uj9q6egqoojh8dan8sphgv03l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.change.canable",
+            "certificate_hash": "f8ed6bae52a93632ed0551a6f1467669f8a0004d"
+          }
+        },
+        {
+          "client_id": "658783263698-dd5jgh94bs7f6c5djhhpg7g275duu2jn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxGHKld212_AU2s16z1DVpmS3O5kBhPWY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658783263698-dd5jgh94bs7f6c5djhhpg7g275duu2jn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "658783263698-i6a095idghsnvkib3u1co5b0n937prm2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "riyazrmp97-gmail.com.bellbirdmvp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658783263698:android:b696c5bfc6e67fcca6860b",
+        "android_client_info": {
+          "package_name": "com.example.canablebusiness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658783263698-d1lg60ii6g233v8vptn8l6ibr7lgorhn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.canablebusiness",
+            "certificate_hash": "f8ed6bae52a93632ed0551a6f1467669f8a0004d"
+          }
+        },
+        {
+          "client_id": "658783263698-dd5jgh94bs7f6c5djhhpg7g275duu2jn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxGHKld212_AU2s16z1DVpmS3O5kBhPWY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658783263698-dd5jgh94bs7f6c5djhhpg7g275duu2jn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "658783263698-i6a095idghsnvkib3u1co5b0n937prm2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "riyazrmp97-gmail.com.bellbirdmvp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
