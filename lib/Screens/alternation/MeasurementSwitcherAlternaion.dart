@@ -11,7 +11,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart' as auth;
 
-class MeasurementSwitcherBlouse extends StatefulWidget {
+class MeasurementSwitcherAlternation extends StatefulWidget {
   final int backPrice;
   final int neckPrice;
 
@@ -43,7 +43,7 @@ class MeasurementSwitcherBlouse extends StatefulWidget {
   final String f3b;
   final String f3p;
   final int astarPrice;
-  MeasurementSwitcherBlouse(
+  MeasurementSwitcherAlternation(
       {this.sleeveTopPadding,
       this.neckHeight,
       this.f3b,
@@ -73,11 +73,12 @@ class MeasurementSwitcherBlouse extends StatefulWidget {
       this.neckD,
       this.backD});
   @override
-  _MeasurementSwitcherBlouseState createState() =>
-      _MeasurementSwitcherBlouseState();
+  _MeasurementSwitcherAlternationState createState() =>
+      _MeasurementSwitcherAlternationState();
 }
 
-class _MeasurementSwitcherBlouseState extends State<MeasurementSwitcherBlouse> {
+class _MeasurementSwitcherAlternationState
+    extends State<MeasurementSwitcherAlternation> {
   FirebaseFirestore firestore = FirebaseFirestore.instance;
   QuerySnapshot topMeasurementF;
   QuerySnapshot bottomMeasurementF;

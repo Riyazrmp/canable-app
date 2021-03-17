@@ -1,11 +1,8 @@
 import 'package:bellbirdmvp/Screens/orderSuccess.dart';
-import 'package:bellbirdmvp/Stitching/SalwarSuitEdititingScreen.dart';
-import 'package:bellbirdmvp/Tabs-screens/BottomBar.dart';
-import 'package:bellbirdmvp/Tabs-screens/UserP.dart';
+
 import 'package:bellbirdmvp/extras/decorations.dart';
 import 'package:bellbirdmvp/localization/demolocalization.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -13,7 +10,7 @@ import 'package:flutter_icons/flutter_icons.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:firebase_auth/firebase_auth.dart' as auth;
 
-class BlouseAddress extends StatefulWidget {
+class AlternationAddress extends StatefulWidget {
   final int backPrice;
   final int neckPrice;
   final String measurementTopDocId;
@@ -38,7 +35,7 @@ class BlouseAddress extends StatefulWidget {
   final String backN;
   final String cutN;
   final int price;
-  BlouseAddress({
+  AlternationAddress({
     this.discountSnapshot,
     this.snapshot,
     this.sleeveTopPadding,
@@ -65,10 +62,10 @@ class BlouseAddress extends StatefulWidget {
     this.backD,
   });
   @override
-  _BlouseAddressState createState() => _BlouseAddressState();
+  _AlternationAddressState createState() => _AlternationAddressState();
 }
 
-class _BlouseAddressState extends State<BlouseAddress> {
+class _AlternationAddressState extends State<AlternationAddress> {
   TextEditingController controller = new TextEditingController();
   TextEditingController controller1 = new TextEditingController();
   TextEditingController controller2 = new TextEditingController();

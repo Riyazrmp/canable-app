@@ -7,7 +7,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
 
-class BlousePlanSelect extends StatefulWidget {
+class AlternationPlanSelect extends StatefulWidget {
   final int backPrice;
   final String measurementTopDocId;
   final String measurementImageTopUrl;
@@ -42,7 +42,7 @@ class BlousePlanSelect extends StatefulWidget {
   final String f3b;
   final String f3p;
   final int astarPrice;
-  BlousePlanSelect({
+  AlternationPlanSelect({
     this.sleeveTopPadding,
     this.neckHeight,
     this.f3b,
@@ -77,10 +77,10 @@ class BlousePlanSelect extends StatefulWidget {
     this.backD,
   });
   @override
-  _BlousePlanSelectState createState() => _BlousePlanSelectState();
+  _AlternationPlanSelectState createState() => _AlternationPlanSelectState();
 }
 
-class _BlousePlanSelectState extends State<BlousePlanSelect> {
+class _AlternationPlanSelectState extends State<AlternationPlanSelect> {
   bool isPremium = true;
   int price = 0;
   int basicPrice = 0;

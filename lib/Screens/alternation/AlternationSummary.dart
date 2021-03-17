@@ -1,7 +1,5 @@
-import 'package:bellbirdmvp/Screens/Frock/FrockAddress.dart';
-import 'package:bellbirdmvp/Screens/orderSuccess.dart';
-import 'package:bellbirdmvp/Stitching/address_SS.dart';
-import 'package:bellbirdmvp/extras/decorations.dart';
+import 'package:bellbirdmvp/Screens/alternation/alternationAddress.dart';
+
 import 'package:bellbirdmvp/localization/demolocalization.dart';
 import 'package:bellbirdmvp/localization/uiLang.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -10,11 +8,8 @@ import 'package:firebase_auth/firebase_auth.dart' as auth;
 
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
-import 'package:random_string/random_string.dart';
 
-import 'blouseAddress.dart';
-
-class BlouseSummary extends StatefulWidget {
+class AlternationSummary extends StatefulWidget {
   final int backPrice;
   final String measurementImageTopUrl;
   final String measurementImageBottomUrl;
@@ -40,7 +35,7 @@ class BlouseSummary extends StatefulWidget {
 
   final String plan;
   final int price;
-  BlouseSummary({
+  AlternationSummary({
     this.neckN,
     this.deliveryDays,
     this.isMeasurementSelected,
@@ -66,10 +61,10 @@ class BlouseSummary extends StatefulWidget {
     this.backD,
   });
   @override
-  _BlouseSummaryState createState() => _BlouseSummaryState();
+  _AlternationSummaryState createState() => _AlternationSummaryState();
 }
 
-class _BlouseSummaryState extends State<BlouseSummary> {
+class _AlternationSummaryState extends State<AlternationSummary> {
   FirebaseFirestore firestore = FirebaseFirestore.instance;
   bool isLoading = false;
   bool isOfferLoading = false;
@@ -646,7 +641,7 @@ class _BlouseSummaryState extends State<BlouseSummary> {
             ),
             onPressed: () {
               Navigator.push(context, CupertinoPageRoute(builder: (context) {
-                return BlouseAddress(
+                return AlternationAddress(
                   isMeasurementSelected: widget.isMeasurementSelected,
                   measurementBottomDocId: widget.measurementBottomDocId,
                   measurementTopDocId: widget.measurementTopDocId,
@@ -1328,7 +1323,7 @@ class _BlouseSummaryState extends State<BlouseSummary> {
                                       Navigator.push(context,
                                           CupertinoPageRoute(
                                               builder: (context) {
-                                        return BlouseAddress(
+                                        return AlternationAddress(
                                           isMeasurementSelected:
                                               widget.isMeasurementSelected,
                                           measurementBottomDocId:

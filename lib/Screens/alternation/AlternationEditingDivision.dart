@@ -16,14 +16,16 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:modal_bottom_sheet/modal_bottom_sheet.dart';
 import 'package:random_string/random_string.dart';
 
-class BlouseEditingDivision extends StatefulWidget {
+class AlternationEditingDivision extends StatefulWidget {
   final String languageCode;
-  BlouseEditingDivision(this.languageCode);
+  AlternationEditingDivision(this.languageCode);
   @override
-  _BlouseEditingDivisionState createState() => _BlouseEditingDivisionState();
+  _AlternationEditingDivisionState createState() =>
+      _AlternationEditingDivisionState();
 }
 
-class _BlouseEditingDivisionState extends State<BlouseEditingDivision> {
+class _AlternationEditingDivisionState
+    extends State<AlternationEditingDivision> {
   FirebaseFirestore firestore = FirebaseFirestore.instance;
 
   QuerySnapshot neckSnapshots;

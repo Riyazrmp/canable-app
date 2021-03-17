@@ -4,6 +4,7 @@ import 'package:bellbirdmvp/Screens/Frock/FrockPlanSelect.dart';
 import 'package:bellbirdmvp/Screens/Frock/MeasurementSwitcherFrock.dart';
 import 'package:bellbirdmvp/Screens/Garara%20Farara/GararaPlanSelect.dart';
 import 'package:bellbirdmvp/Screens/Garara%20Farara/MeasurementSwitcherGarara.dart';
+import 'package:bellbirdmvp/Screens/alternation/AlternationPlanSelect.dart';
 import 'package:bellbirdmvp/Screens/blouse/MeasurementSwitcherblouse.dart';
 import 'package:bellbirdmvp/Stitching/PlanSelect_0.dart';
 import 'package:bellbirdmvp/Stitching/measurementSwitcher.dart';
@@ -28,9 +29,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:wechat_camera_picker/wechat_camera_picker.dart';
 
-import 'blousePlanSelect.dart';
-
-class BlouseForm extends StatefulWidget {
+class AddressForm extends StatefulWidget {
   final int backPrice;
   final int neckPrice;
   final int cutPrice;
@@ -44,7 +43,7 @@ class BlouseForm extends StatefulWidget {
   final String neckN;
   final String backN;
   final String cutN;
-  BlouseForm({
+  AddressForm({
     this.sleeveTopPadding,
     this.neckHeight,
     this.cutHeight,
@@ -59,7 +58,7 @@ class BlouseForm extends StatefulWidget {
     this.backD,
   });
   @override
-  _BlouseFormState createState() => _BlouseFormState();
+  _AddressFormState createState() => _AddressFormState();
 }
 
 class Note {
@@ -74,7 +73,7 @@ class Note {
   }
 }
 
-class _BlouseFormState extends State<BlouseForm> {
+class _AddressFormState extends State<AddressForm> {
   @override
   void initState() {
     _updateAppbar();
@@ -200,7 +199,7 @@ class _BlouseFormState extends State<BlouseForm> {
       bool isMeasurementSelected = false;
 
       Navigator.push(context, CupertinoPageRoute(builder: (context) {
-        return BlousePlanSelect(
+        return AlternationPlanSelect(
           cutPrice: widget.cutPrice,
           basicPrice: priceResult.data()['basicGarara'],
           premiumPrice: priceResult.data()['premiumGarara'],
